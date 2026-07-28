@@ -1,41 +1,39 @@
 services:
-  app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    app:
+        build:
+            context: .
+            dockerfile: Dockerfile
 
-    ports:
-      - "3000:3000"
+        ports:
+            - "3000:3000"
 
-    volumes:
-      - .:/app
-      - /app/node_modules
+        volumes:
+            - .:/app
+            - /app/node_modules
 
-    environment:
-      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/quickbite
+        environment:
+            DATABASE_URL: postgresql://postgres:postgres@postgres:5432/quickbite
 
-    depends_on:
-      - postgres
+        depends_on:
+            - postgres
 
+    postgres:
+        image: postgres:17-alpine
 
-  postgres:
-    image: postgres:17-alpine
+        container_name: quickbite-postgres
 
-    container_name: quickbite-postgres
+        restart: unless-stopped
 
-    restart: unless-stopped
+        environment:
+            POSTGRES_USER: postgres
+            POSTGRES_PASSWORD: postgres
+            POSTGRES_DB: quickbite
 
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: quickbite
+        ports:
+            - "5432:5432"
 
-    ports:
-      - "5432:5432"
-
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-
+        volumes:
+            - postgres_data:/var/lib/postgresql/data
 
 volumes:
-  postgres_data:
+    postgres_data:
