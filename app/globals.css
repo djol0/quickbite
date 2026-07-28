@@ -26,14 +26,12 @@
     --font-mono: var(--font-mono);
 }
 
-
 /* Global styles */
 body {
     background: var(--background);
     color: var(--foreground);
     font-family: var(--font-inter), sans-serif;
 }
-
 
 /* QuickBite fonts */
 .qb-display {
@@ -66,7 +64,6 @@ body {
     animation: qb-rise 0.5s ease-out both;
 }
 
-
 @keyframes qb-glow {
     0%, 100% {
         opacity: 0.55;
@@ -80,7 +77,6 @@ body {
 .qb-glow {
     animation: qb-glow 2.8s ease-in-out infinite;
 }
-
 
 /* Inputs */
 .qb-input {
@@ -98,7 +94,6 @@ body {
     background-color: rgba(251,246,ed,0.07);
     box-shadow: 0 0 0 2px var(--color-ember);
 }
-
 
 /* Background texture */
 .qb-grate {
