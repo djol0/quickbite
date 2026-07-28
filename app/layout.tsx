@@ -1,16 +1,24 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Archivo_Black, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
+const inter = Inter({
     subsets: ["latin"],
+    variable: "--font-inter",
 });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
+const archivo = Archivo_Black({
+    weight: "400",
     subsets: ["latin"],
+    variable: "--font-archivo",
 });
+
+const jetbrains = JetBrains_Mono({
+    subsets: ["latin"],
+    variable: "--font-mono",
+});
+
 
 export const metadata: Metadata = {
     title: "Create Next App",
@@ -23,11 +31,10 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html
-            lang="en"
-            className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-        >
-            <body className="min-h-full flex flex-col">{children}</body>
+        <html lang="en">
+            <body className={`${inter.variable} ${archivo.variable} ${jetbrains.variable}`}>
+                {children}
+            </body>
         </html>
     );
 }
