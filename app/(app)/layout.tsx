@@ -1,4 +1,5 @@
 import Footer from "@/components/layout/Footer";
+import Header from "@/components/layout/Header";
 
 export default function AppLayout({
     children,
@@ -8,6 +9,7 @@ export default function AppLayout({
     return (
         <div>
             <main>
+                <Header />
                 {children}
                 <Footer />
             </main>
