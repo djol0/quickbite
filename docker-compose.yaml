@@ -13,6 +13,9 @@ services:
 
         environment:
             DATABASE_URL: postgresql://postgres:postgres@postgres:5432/quickbite
+            AUTH_SECRET: ${AUTH_SECRET}
+            GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+            GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
 
         depends_on:
             - postgres

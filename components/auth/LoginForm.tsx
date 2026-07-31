@@ -1,8 +1,10 @@
 "use client"
 
 import React, { useState, FormEvent, JSX } from "react"
-import { Mail, Lock, Eye, EyeOff, ArrowRight, Flame, Clock, MapPin } from "lucide-react"
+import { Mail, Lock, Eye, EyeOff, ArrowRight } from "lucide-react"
 import { COLORS } from "@/constants/colors"
+import { signIn } from "next-auth/react"
+import { useRouter } from "next/navigation";
 
 function GoogleIcon(props: React.SVGProps<SVGSVGElement>) {
     return (
@@ -32,17 +34,26 @@ export default function LoginForm(): JSX.Element {
     const [password, setPassword] = useState<string>("");
     const [showPassword, setShowPassword] = useState<boolean>(false);
     const [loading, setLoading] = useState<boolean>(false);
+    const router = useRouter();
 
-
-    const handleSubmit = (e: FormEvent<HTMLFormElement>): void => {
+    const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
         e.preventDefault();
         setLoading(true);
-        // Wire this up to your auth.js `signIn("credentials", { email, password })`
-        setTimeout(() => setLoading(false), 1200);
+        
+        const result = await signIn("credentials", {
+            email,
+            password,
+            redirectTo: "/dashboard",
+        })
+
+        console.log(result)
+        setLoading(false)
     };
 
     const handleGoogle = (): void => {
-        // Wire this up to your auth.js `signIn("google")`
+        signIn("google", {
+            redirectTo: "/dashboard"
+        })
     };
 
     return (

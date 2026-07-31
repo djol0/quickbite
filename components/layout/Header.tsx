@@ -1,6 +1,10 @@
+"use client"
+
 import Link from "next/link"
 import { MapPin, ChevronDown, User, LogOut } from "lucide-react"
 import { COLORS } from "@/constants/colors"
+import { signOut } from "next-auth/react"
+// import { signOut } from "@/auth"
 
 const Logo = () => {
     return (
@@ -64,10 +68,15 @@ const UserButton = () => {
     );
 }
 
+const logout = () => { 
+    signOut({ redirectTo: '/login' }) 
+}
+
 function LogoutButton({ className = "" }: { className?: string }) {
     return (
         <button
             type="button"
+            onClick={logout}
             className={`qb-body inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-sm font-medium transition-colors hover:bg-white/5 ${className}`}
             style={{ borderColor: COLORS.border, color: COLORS.paper }}
         >
