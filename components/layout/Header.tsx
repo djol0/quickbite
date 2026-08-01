@@ -34,18 +34,8 @@ const AddressSelector = ({ fullWidth = false }: AddressSelectorProps) => {
         <button
             type="button"
             aria-haspopup="listbox"
-            // className={`qb-body flex items-center gap-2 rounded-lg border px-3 py-2 text-sm transition-colors hover:bg-white/5 ${fullWidth ? "w-full" : "w-56 sm:w-64"} cursor-pointer`}
-            // style={{
-            //     backgroundColor: "rgba(251,246,237,0.05)",
-            //     borderColor: COLORS.border,
-            //     color: COLORS.paper,
-            // }}
             className={`qb-body flex items-center gap-4  px-3 text-sm cursor-pointer`}
-            style={{
-                // backgroundColor: "rgba(251,246,237,0.05)",
-                // borderColor: COLORS.border,
-                color: COLORS.paper,
-            }}
+            style={{ color: COLORS.paper }}
         >
             <MapPin size={40} style={{ color: COLORS.mustard, backgroundColor: "rgba(251,246,237,0.05)" }} className="shrink-0 p-1.5 rounded-3xl" />
             <span className="truncate">Home</span>
@@ -99,9 +89,7 @@ export default function Header() {
                 <nav aria-label="Primary" className="flex items-center justify-between gap-4">
                     <div className="flex items-center gap-4 md:gap-8 min-w-0">
                         <Logo />
-
-                            <AddressSelector />
-               
+                        <AddressSelector />
                     </div>
 
                     <div className="flex items-center gap-2 md:gap-3">
