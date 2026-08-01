@@ -24,7 +24,7 @@ export default function RestaurantCarousel({ items }: RestaurantCarouselProps) {
                 aria-label="Scroll menu left"
                 onClick={() => scrollBy(-200)}
                 className="flex h-9 w-9 items-center justify-center rounded-full border cursor-pointer mr-2"
-                style={{ backgroundColor: COLORS.bg, borderColor: COLORS.border, color: COLORS.paper }}
+                style={{ borderColor: COLORS.border, color: COLORS.paper }}
             >
                 <ChevronLeft size={14} />
             </button>
@@ -38,7 +38,7 @@ export default function RestaurantCarousel({ items }: RestaurantCarouselProps) {
                 aria-label="Scroll menu right"
                 onClick={() => scrollBy(200)}
                 className="flex h-9 w-9 items-center justify-center rounded-full border cursor-pointer"
-                style={{ backgroundColor: COLORS.bg, borderColor: COLORS.border, color: COLORS.paper }}
+                style={{ borderColor: COLORS.border, color: COLORS.paper }}
             >
                 <ChevronRight size={14} />
             </button>

@@ -16,8 +16,10 @@ export default async function AppLayout({
     return (
         <div>
             <main>
-                <Header />
-                {children}
+                <div className=" px-5 sm:px-20 md:px-28 lg:px-36 2xl:px-44 ">
+                    <Header />
+                    {children}
+                </div>
                 <Footer />
             </main>
         </div>
