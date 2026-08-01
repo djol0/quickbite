@@ -1,15 +1,17 @@
-import { JSX } from "react"
-import AuthBrandPanel from "@/components/auth/AuthBrandPanel"
-import LoginForm from "@/components/auth/LoginForm"
+import { categories } from "@/data/categories"
+import { restaurants } from "@/data/restaurants"
+import DashboardClient from "@/components/dashboard/DashboardClient"
 import { COLORS } from "@/constants/colors"
 
-export default async function Dashboard(): Promise<JSX.Element> {
+export default function DashboardPage() {
     return (
-        <div
-            className="min-h-screen w-full flex flex-col md:flex-row qb-grate"
+        <main
+            className="min-h-screen px-4 py-6 sm:px-6 sm:py-8 lg:px-8 lg:py-10"
             style={{ backgroundColor: COLORS.bg }}
         >
-
-        </div>
-    );
+            <div className="mx-auto max-w-[1600px]">
+                <DashboardClient categories={categories} restaurants={restaurants} />
+            </div>
+        </main>
+    )
 }

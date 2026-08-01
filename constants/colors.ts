@@ -8,3 +8,10 @@ export const COLORS = {
     ember: "#FF4B2E",
     mustard: "#F5B942",
 };
+
+export function formatTag(slug: string): string {
+    return slug
+        .split("-")
+        .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(" ");
+}
