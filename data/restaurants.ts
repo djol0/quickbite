@@ -2,15 +2,15 @@ import type { Restaurant } from "@/types/dashboard";
 
 export const restaurants: Restaurant[] = [
   {
-    id: "burger-house",
-    name: "Burger House",
+    id: "McDonalds",
+    name: "McDonalds",
     emoji: "🍔",
     rating: 4.8,
     distanceKm: 1.2,
     deliveryTime: "25-35 min",
     tags: ["burgers", "american", "fast-food"],
-    description:
-      "Classic smashed burgers and crispy fries, made fresh to order.",
+    description: "Classic smashed burgers and crispy fries, made fresh to order.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "bh-1",
@@ -204,6 +204,7 @@ export const restaurants: Restaurant[] = [
     tags: ["italian", "pasta"],
     description:
       "Handmade pasta and wood-fired classics from a family recipe book.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "nk-1",
@@ -253,6 +254,7 @@ export const restaurants: Restaurant[] = [
     tags: ["serbian", "barbecue", "chicken"],
     description:
       "Charcoal-grilled ćevapi and pljeskavica, straight off the fire.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "bg-1",
@@ -301,6 +303,7 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "35-45 min",
     tags: ["asian", "healthy"],
     description: "Fresh ramen, sushi rolls, and rice bowls made to order.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "sb-1",
@@ -350,6 +353,7 @@ export const restaurants: Restaurant[] = [
     tags: ["vegan", "healthy"],
     description:
       "Plant-based bowls, salads, and smoothies for a lighter bite.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "gf-1",
@@ -398,6 +402,7 @@ export const restaurants: Restaurant[] = [
     deliveryTime: "15-25 min",
     tags: ["breakfast", "pancakes", "desserts"],
     description: "All-day breakfast, fluffy pancakes, and fresh pastries.",
+    imageurl: "/images/restaurants/mekdonalds.avif",
     menu: [
       {
         id: "sc-1",
