@@ -19,6 +19,7 @@ export const restaurants: Restaurant[] = [
         price: 8.5,
         rating: 4.9,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-2",
@@ -27,6 +28,7 @@ export const restaurants: Restaurant[] = [
         price: 9.2,
         rating: 4.7,
         emoji: "🥓",
+        imageurl: "/images/food/obrok.avif"
       },
       {
         id: "bh-3",
@@ -35,6 +37,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/pomfrit.avif"
       },
       {
         id: "bh-4",
@@ -43,6 +46,7 @@ export const restaurants: Restaurant[] = [
         price: 4.5,
         rating: 4.5,
         emoji: "🍟",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-5",
@@ -51,6 +55,7 @@ export const restaurants: Restaurant[] = [
         price: 8.5,
         rating: 4.9,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-6",
@@ -59,6 +64,7 @@ export const restaurants: Restaurant[] = [
         price: 9.2,
         rating: 4.7,
         emoji: "🥓",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-7",
@@ -67,6 +73,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-8",
@@ -75,6 +82,7 @@ export const restaurants: Restaurant[] = [
         price: 4.5,
         rating: 4.5,
         emoji: "🍟",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-9",
@@ -83,6 +91,7 @@ export const restaurants: Restaurant[] = [
         price: 8.5,
         rating: 4.9,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-10",
@@ -91,6 +100,7 @@ export const restaurants: Restaurant[] = [
         price: 9.2,
         rating: 4.7,
         emoji: "🥓",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-11",
@@ -99,6 +109,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-12",
@@ -107,6 +118,7 @@ export const restaurants: Restaurant[] = [
         price: 4.5,
         rating: 4.5,
         emoji: "🍟",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-13",
@@ -115,6 +127,7 @@ export const restaurants: Restaurant[] = [
         price: 8.5,
         rating: 4.9,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-14",
@@ -123,6 +136,7 @@ export const restaurants: Restaurant[] = [
         price: 9.2,
         rating: 4.7,
         emoji: "🥓",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-15",
@@ -131,6 +145,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-16",
@@ -139,6 +154,7 @@ export const restaurants: Restaurant[] = [
         price: 4.5,
         rating: 4.5,
         emoji: "🍟",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-17",
@@ -147,6 +163,7 @@ export const restaurants: Restaurant[] = [
         price: 8.5,
         rating: 4.9,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-18",
@@ -155,6 +172,7 @@ export const restaurants: Restaurant[] = [
         price: 9.2,
         rating: 4.7,
         emoji: "🥓",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-19",
@@ -163,6 +181,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bh-20",
@@ -171,6 +190,7 @@ export const restaurants: Restaurant[] = [
         price: 4.5,
         rating: 4.5,
         emoji: "🍟",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },
@@ -192,6 +212,7 @@ export const restaurants: Restaurant[] = [
         price: 9.9,
         rating: 4.9,
         emoji: "🍝",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "nk-2",
@@ -200,6 +221,7 @@ export const restaurants: Restaurant[] = [
         price: 8.0,
         rating: 4.8,
         emoji: "🍕",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "nk-3",
@@ -208,6 +230,7 @@ export const restaurants: Restaurant[] = [
         price: 10.5,
         rating: 4.7,
         emoji: "🧀",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "nk-4",
@@ -216,6 +239,7 @@ export const restaurants: Restaurant[] = [
         price: 5.5,
         rating: 4.9,
         emoji: "🍰",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },
@@ -237,6 +261,7 @@ export const restaurants: Restaurant[] = [
         price: 7.0,
         rating: 4.9,
         emoji: "🍖",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bg-2",
@@ -245,6 +270,7 @@ export const restaurants: Restaurant[] = [
         price: 7.5,
         rating: 4.8,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bg-3",
@@ -253,6 +279,7 @@ export const restaurants: Restaurant[] = [
         price: 6.8,
         rating: 4.6,
         emoji: "🍗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "bg-4",
@@ -261,6 +288,7 @@ export const restaurants: Restaurant[] = [
         price: 2.5,
         rating: 4.7,
         emoji: "🍞",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },
@@ -281,6 +309,7 @@ export const restaurants: Restaurant[] = [
         price: 9.5,
         rating: 4.8,
         emoji: "🍜",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sb-2",
@@ -289,6 +318,7 @@ export const restaurants: Restaurant[] = [
         price: 7.2,
         rating: 4.6,
         emoji: "🍣",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sb-3",
@@ -297,6 +327,7 @@ export const restaurants: Restaurant[] = [
         price: 8.9,
         rating: 4.7,
         emoji: "🍚",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sb-4",
@@ -305,6 +336,7 @@ export const restaurants: Restaurant[] = [
         price: 3.0,
         rating: 4.4,
         emoji: "🥣",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },
@@ -326,6 +358,7 @@ export const restaurants: Restaurant[] = [
         price: 7.9,
         rating: 4.7,
         emoji: "🥗",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "gf-2",
@@ -334,6 +367,7 @@ export const restaurants: Restaurant[] = [
         price: 6.5,
         rating: 4.5,
         emoji: "🥑",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "gf-3",
@@ -342,6 +376,7 @@ export const restaurants: Restaurant[] = [
         price: 8.2,
         rating: 4.4,
         emoji: "🍔",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "gf-4",
@@ -350,6 +385,7 @@ export const restaurants: Restaurant[] = [
         price: 4.0,
         rating: 4.6,
         emoji: "🥤",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },
@@ -370,6 +406,7 @@ export const restaurants: Restaurant[] = [
         price: 6.5,
         rating: 4.9,
         emoji: "🥞",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sc-2",
@@ -378,6 +415,7 @@ export const restaurants: Restaurant[] = [
         price: 7.8,
         rating: 4.7,
         emoji: "🍳",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sc-3",
@@ -386,6 +424,7 @@ export const restaurants: Restaurant[] = [
         price: 6.9,
         rating: 4.8,
         emoji: "🧇",
+        imageurl: "/images/food/cheeseburger.avif"
       },
       {
         id: "sc-4",
@@ -394,6 +433,7 @@ export const restaurants: Restaurant[] = [
         price: 3.5,
         rating: 4.6,
         emoji: "🍩",
+        imageurl: "/images/food/cheeseburger.avif"
       },
     ],
   },

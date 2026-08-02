@@ -11,6 +11,7 @@ export interface MenuItem {
     price: number;
     rating: number;
     emoji: string;
+    imageurl: string;
 }
 
 export interface Restaurant {
