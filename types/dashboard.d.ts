@@ -21,6 +21,7 @@ export interface Restaurant {
     rating: number;
     distanceKm: number;
     deliveryTime: string;
+    imageurl: string;
 
     tags: string[];
     description: string;
