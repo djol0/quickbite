@@ -45,7 +45,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍟",
       },
       {
-        id: "bh-1",
+        id: "bh-5",
         name: "Double Cheeseburger",
         description: "Beef patty, cheddar, sauce",
         price: 8.5,
@@ -53,7 +53,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍔",
       },
       {
-        id: "bh-2",
+        id: "bh-6",
         name: "Bacon BBQ Burger",
         description: "Smoked bacon, onion rings, BBQ sauce",
         price: 9.2,
@@ -61,7 +61,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🥓",
       },
       {
-        id: "bh-3",
+        id: "bh-7",
         name: "Crispy Chicken Burger",
         description: "Buttermilk fried chicken, slaw",
         price: 7.8,
@@ -69,7 +69,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍗",
       },
       {
-        id: "bh-4",
+        id: "bh-8",
         name: "Loaded Fries",
         description: "Cheese sauce, bacon bits, chives",
         price: 4.5,
@@ -77,7 +77,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍟",
       },
       {
-        id: "bh-1",
+        id: "bh-9",
         name: "Double Cheeseburger",
         description: "Beef patty, cheddar, sauce",
         price: 8.5,
@@ -85,7 +85,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍔",
       },
       {
-        id: "bh-2",
+        id: "bh-10",
         name: "Bacon BBQ Burger",
         description: "Smoked bacon, onion rings, BBQ sauce",
         price: 9.2,
@@ -93,7 +93,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🥓",
       },
       {
-        id: "bh-3",
+        id: "bh-11",
         name: "Crispy Chicken Burger",
         description: "Buttermilk fried chicken, slaw",
         price: 7.8,
@@ -101,7 +101,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍗",
       },
       {
-        id: "bh-4",
+        id: "bh-12",
         name: "Loaded Fries",
         description: "Cheese sauce, bacon bits, chives",
         price: 4.5,
@@ -109,7 +109,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍟",
       },
       {
-        id: "bh-1",
+        id: "bh-13",
         name: "Double Cheeseburger",
         description: "Beef patty, cheddar, sauce",
         price: 8.5,
@@ -117,7 +117,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍔",
       },
       {
-        id: "bh-2",
+        id: "bh-14",
         name: "Bacon BBQ Burger",
         description: "Smoked bacon, onion rings, BBQ sauce",
         price: 9.2,
@@ -125,7 +125,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🥓",
       },
       {
-        id: "bh-3",
+        id: "bh-15",
         name: "Crispy Chicken Burger",
         description: "Buttermilk fried chicken, slaw",
         price: 7.8,
@@ -133,7 +133,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍗",
       },
       {
-        id: "bh-4",
+        id: "bh-16",
         name: "Loaded Fries",
         description: "Cheese sauce, bacon bits, chives",
         price: 4.5,
@@ -141,7 +141,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍟",
       },
       {
-        id: "bh-1",
+        id: "bh-17",
         name: "Double Cheeseburger",
         description: "Beef patty, cheddar, sauce",
         price: 8.5,
@@ -149,7 +149,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍔",
       },
       {
-        id: "bh-2",
+        id: "bh-18",
         name: "Bacon BBQ Burger",
         description: "Smoked bacon, onion rings, BBQ sauce",
         price: 9.2,
@@ -157,7 +157,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🥓",
       },
       {
-        id: "bh-3",
+        id: "bh-19",
         name: "Crispy Chicken Burger",
         description: "Buttermilk fried chicken, slaw",
         price: 7.8,
@@ -165,7 +165,7 @@ export const restaurants: Restaurant[] = [
         emoji: "🍗",
       },
       {
-        id: "bh-4",
+        id: "bh-20",
         name: "Loaded Fries",
         description: "Cheese sauce, bacon bits, chives",
         price: 4.5,
