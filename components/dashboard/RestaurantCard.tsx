@@ -24,7 +24,7 @@ export default function RestaurantCard({ restaurant }: RestaurantCardProps) {
                     </h3>
 
                     <div
-                        className="qb-mono  flex flex-wrap items-center gap-x-2 gap-y-1 text-xs"
+                        className="qb-mono pb-0.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-xs"
                         style={{ color: COLORS.smoke }}
                     >
                         <span className="flex items-center gap-1">
