@@ -27,8 +27,8 @@ export default function CategoryCarousel({
                 type="button"
                 aria-label="Scroll categories left"
                 onClick={() => scrollBy(-240)}
-                className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 h-8 w-8 items-center justify-center rounded-full border cursor-pointer"
-                style={{ backgroundColor: COLORS.card, borderColor: COLORS.border, color: COLORS.paper }}
+                className="hidden sm:flex absolute left-0 top-1/2 -translate-y-1/2 z-10 h-8 w-8 items-center justify-center rounded-full border cursor-pointer hover:bg-white/5"
+                style={{ borderColor: COLORS.border, color: COLORS.paper }}
             >
                 <ChevronLeft size={16} />
             </button>
@@ -41,8 +41,8 @@ export default function CategoryCarousel({
                 type="button"
                 aria-label="Scroll categories right"
                 onClick={() => scrollBy(240)}
-                className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 h-8 w-8 items-center justify-center rounded-full border cursor-pointer"
-                style={{ backgroundColor: COLORS.card, borderColor: COLORS.border, color: COLORS.paper }}
+                className="hidden sm:flex absolute right-0 top-1/2 -translate-y-1/2 z-10 h-8 w-8 items-center justify-center rounded-full border cursor-pointer hover:bg-white/5"
+                style={{ borderColor: COLORS.border, color: COLORS.paper }}
             >
                 <ChevronRight size={16} />
             </button>
@@ -65,7 +65,7 @@ export default function CategoryCarousel({
                             type="button"
                             onClick={() => onSelect(category.id)}
                             aria-pressed={isActive}
-                            className="qb-body flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-4 py-2 text-sm font-medium transition-colors"
+                            className={`qb-body flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full border px-4 py-2 text-sm font-medium transition-colors hover:scale-105 cursor-pointer ${isActive ? "scale-105" : ""} `}
                             style={
                                 isActive
                                 ? { backgroundColor: COLORS.ember, borderColor: COLORS.ember, color: COLORS.paper }
