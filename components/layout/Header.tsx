@@ -3,6 +3,8 @@
 import { MapPin, ChevronDown, User, LogOut } from "lucide-react"
 import { COLORS } from "@/constants/colors"
 import { signOut } from "next-auth/react"
+import { useState } from "react"
+import AddressModal from "../address/AddressModal"
 
 const Logo = () => {
     return (
@@ -26,16 +28,18 @@ const Logo = () => {
 }
 
 interface AddressSelectorProps {
-  fullWidth?: boolean;
+    fullWidth?: boolean;
+    onClick?: () => void;
 }
 
-const AddressSelector = ({ fullWidth = false }: AddressSelectorProps) => {
+const AddressSelector = ({ fullWidth = false, onClick }: AddressSelectorProps) => {
     return (
         <button
             type="button"
             aria-haspopup="listbox"
             className={`qb-body flex items-center gap-4  px-3 text-sm cursor-pointer`}
             style={{ color: COLORS.paper }}
+            onClick={onClick}
         >
             <MapPin size={40} style={{ color: COLORS.mustard, backgroundColor: "rgba(251,246,237,0.05)" }} className="shrink-0 p-1.5 rounded-3xl" />
             <span className="truncate">Home</span>
@@ -80,6 +84,8 @@ function LogoutButton({ className = "" }: { className?: string }) {
 }
 
 export default function Header() {
+    const [isAddressModalOpen, setIsAddressModalOpen] = useState(false)
+
     return (
         <header
             className="sticky top-0 z-40 border-b backdrop-blur"
@@ -89,7 +95,7 @@ export default function Header() {
                 <nav aria-label="Primary" className="flex items-center justify-between gap-4">
                     <div className="flex items-center gap-4 md:gap-8 min-w-0">
                         <Logo />
-                        <AddressSelector />
+                        <AddressSelector onClick={() => setIsAddressModalOpen(true)}/>
                     </div>
 
                     <div className="flex items-center gap-2 md:gap-3">
@@ -98,6 +104,11 @@ export default function Header() {
                     </div>
                 </nav>
             </div>
+
+            <AddressModal
+                isOpen={isAddressModalOpen}
+                onClose={() => setIsAddressModalOpen(false)}
+            />
         </header>
     )
 }
